@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+ 
+ 	
+    
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.shm.servlet.LoginServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>ListProjectServlet</servlet-name>
+        <servlet-class>com.shm.servlet.ListProjectServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>ListProjectServlet</servlet-name>
+        <url-pattern>/list_project</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddProjectServlet</servlet-name>
+        <servlet-class>com.shm.servlet.AddProjectServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>AddProjectServlet</servlet-name>
+        <url-pattern>/add_project</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteProjectServlet</servlet-name>
+        <servlet-class>com.shm.servlet.DeleteProjectServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>DeleteProjectServlet</servlet-name>
+        <url-pattern>/delete_project</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EditProjectServlet</servlet-name>
+        <servlet-class>com.shm.servlet.EditProjectServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>EditProjectServlet</servlet-name>
+        <url-pattern>/edit_project</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateProjectServlet</servlet-name>
+        <servlet-class>com.shm.servlet.UpdateProjectServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>UpdateProjectServlet</servlet-name>
+        <url-pattern>/update_project</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>ListSensorServlet</servlet-name>
+        <servlet-class>com.shm.servlet.ListSensorServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>ListSensorServlet</servlet-name>
+        <url-pattern>/list_sensor</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddSensorServlet</servlet-name>
+        <servlet-class>com.shm.servlet.AddSensorServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>AddSensorServlet</servlet-name>
+        <url-pattern>/add_sensor</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteSensorServlet</servlet-name>
+        <servlet-class>com.shm.servlet.DeleteSensorServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>DeleteSensorServlet</servlet-name>
+        <url-pattern>/delete_sensor</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EditSensorServlet</servlet-name>
+        <servlet-class>com.shm.servlet.EditSensorServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>EditSensorServlet</servlet-name>
+        <url-pattern>/edit_sensor</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateSensorServlet</servlet-name>
+        <servlet-class>com.shm.servlet.UpdateSensorServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>UpdateSensorServlet</servlet-name>
+        <url-pattern>/update_sensor</url-pattern>
+    </servlet-mapping>
+    
+    
+
+    <servlet>
+        <servlet-name>ListSensorTypeServlet</servlet-name>
+        <servlet-class>com.shm.servlet.ListSensorTypeServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>ListSensorTypeServlet</servlet-name>
+        <url-pattern>/list_sensortype</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddSensorTypeServlet</servlet-name>
+        <servlet-class>com.shm.servlet.AddSensorTypeServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>AddSensorTypeServlet</servlet-name>
+        <url-pattern>/add_sensortype</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteSensorTypeServlet</servlet-name>
+        <servlet-class>com.shm.servlet.DeleteSensorTypeServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>DeleteSensorTypeServlet</servlet-name>
+        <url-pattern>/delete_sensortype</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EditSensorTypeServlet</servlet-name>
+        <servlet-class>com.shm.servlet.EditSensorTypeServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>EditSensorTypeServlet</servlet-name>
+        <url-pattern>/edit_sensortype</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateSensorTypeServlet</servlet-name>
+        <servlet-class>com.shm.servlet.UpdateSensorTypeServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>UpdateSensorTypeServlet</servlet-name>
+        <url-pattern>/update_sensortype</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>Monitoring</servlet-name>
+        <servlet-class>com.shm.servlet.MonitoringServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Monitoring</servlet-name>
+        <url-pattern>/monitoring</url-pattern>
+    </servlet-mapping>
+ 
+    <servlet>
+        <servlet-name>MonitoringDataQuery</servlet-name>
+        <servlet-class>com.shm.servlet.MonitoringDataQueryServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>MonitoringDataQuery</servlet-name>
+        <url-pattern>/monitoring_data_query</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Warning</servlet-name>
+        <servlet-class>com.shm.servlet.WarningServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Warning</servlet-name>
+        <url-pattern>/warning</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>WarningDataQuery</servlet-name>
+        <servlet-class>com.shm.servlet.WarningDataQueryServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>WarningDataQuery</servlet-name>
+        <url-pattern>/warning_data_query</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>NewestDataAJAX</servlet-name>
+        <servlet-class>com.shm.servlet.NewestDataAJAXServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>NewestDataAJAX</servlet-name>
+        <url-pattern>/newest_data</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ListFileServlet</servlet-name>
+        <servlet-class>com.shm.servlet.ListFileServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>ListFileServlet</servlet-name>
+        <url-pattern>/list_file</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteFileServlet</servlet-name>
+        <servlet-class>com.shm.servlet.DeleteFileServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>DeleteFileServlet</servlet-name>
+        <url-pattern>/delete_file</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DownloadFileServlet</servlet-name>
+        <servlet-class>com.shm.servlet.DownloadFileServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>DownloadFileServlet</servlet-name>
+        <url-pattern>/download_file</url-pattern>
+    </servlet-mapping>
+    
+ 
+</web-app>
